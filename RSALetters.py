@@ -1,5 +1,7 @@
 # Python Program for implementation of RSA Algorithm for letter version
 # Using Unicode convertion ord() we change string to int values for encryption.
+import hashlib
+
 
 def power(base, expo, m):
     res = 1
